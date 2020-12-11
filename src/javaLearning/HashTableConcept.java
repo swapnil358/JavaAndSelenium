@@ -11,6 +11,7 @@ public class HashTableConcept {
 		h.put(10, "test");
 		h.put(20, "Hello");
 		h.put(30, "world");
+		h.put(40, "swap");
 		
 		System.out.println(h.size());
 		

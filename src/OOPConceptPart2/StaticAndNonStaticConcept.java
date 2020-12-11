@@ -10,13 +10,18 @@ public class StaticAndNonStaticConcept {
 
 		//Calling static variable and method
 		
-		//Calling directly
-		System.out.println(age);
-		//Calling by classname
-		System.out.println(StaticAndNonStaticConcept.age); 
+	
 		
 		//Calling directly
-		sum();						
+		System.out.println("Calling directly : "+age);  //You can not call 'name' directly becuase it is non static
+		
+		
+		//Calling by classname
+		System.out.println("Calling by classname: "+StaticAndNonStaticConcept.age); 
+		
+		//Calling directly
+		sum();	
+		
 		//Calling by classname
 		StaticAndNonStaticConcept.sum();
 		
@@ -26,6 +31,7 @@ public class StaticAndNonStaticConcept {
 		System.out.println(s);
 		obj.sendMail();
 		
+				
 		
 		//Can i access static method by using objecr reference ---->Yes we can use but it gives warning, and that is not good practice.
 		

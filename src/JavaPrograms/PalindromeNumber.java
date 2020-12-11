@@ -14,7 +14,7 @@ public class PalindromeNumber {
 
 		t = num;
 
-		while (num> 0) {
+		while (num!= 0) {
 
 			r = num % 10; // get the remainder
 			sum = (sum * 10) + r;
@@ -32,6 +32,7 @@ public class PalindromeNumber {
 		
 		palindrome(151);
 		palindrome(152);
+		palindrome(789987);
 
 		
 	}

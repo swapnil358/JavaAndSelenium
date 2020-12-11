@@ -16,6 +16,7 @@ public class ArrayListConcept {
 		ar.add(300); //2
 		
 		System.out.println(ar.size());
+		System.out.println("arrayList ar:" +ar);
 		
 		ar.add(400); //3
 		ar.add(500); //4

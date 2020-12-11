@@ -8,6 +8,13 @@ public class JavaChaining {
 	 * another constructor with respect to current object.
 	 */
 	
+	/*Interview Question:  Can we create static constructor?
+	 * Constructor is the property of an object while static has nothing to do with
+	 * object. That's why there is nothing like static constructor. But we have
+	 * static block to do the similar task as constructor i.e. initialization of
+	 * fields etc.
+	 */
+		
 	// No argument constructor
 	public JavaChaining() {	
 		System.out.println("Default Constructor");
@@ -30,6 +37,7 @@ public class JavaChaining {
 	public static void main(String[] args) {
 		
 		JavaChaining J = new JavaChaining(10,20);
+		
 		
 	}
 	

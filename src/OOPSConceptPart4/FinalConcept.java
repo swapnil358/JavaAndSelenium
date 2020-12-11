@@ -22,8 +22,20 @@ public class FinalConcept {
 		System.out.println(i);
 
 	     //i= 20; //giving an error
+		
+		
+		/*
+		 * 2.final method: final method is a Java method,it will not allow method
+		 * overriding. In method overriding, we have to provide same method with
+		 * different implementation at both super class and at sub class, where super
+		 * class method never be declared as final irrespective of sub class method
+		 * final.
+		 */
+	
+	
 	
 	}
+	
 
 	
 	

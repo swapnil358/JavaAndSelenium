@@ -10,6 +10,8 @@ public class TestCar {
 		
 		//static polymorphism ------------> compile time polymorphism
 		
+		System.out.println("********Creating BMW object************");
+		
 		BMW b = new BMW();
 		b.start();
 		b.stop();
@@ -18,20 +20,47 @@ public class TestCar {
 		b.engine();
 		
 		
-		
-		System.out.println("********************");
+		System.out.println("********Creating Car object************");
 		
 		Car c = new Car();
 		c.start();
 		c.stop();
 		c.refuel();
+		c.engine();
 		
 		
-		//Top Casting*****  //Only overridden method and parent will be called
+		System.out.println("*******//Top Casting*************");
+		
+		//Top Casting*****      //Only overridden method and parent will be called
 		Car c1 = new BMW();  //Child class object can be referred by parent class reference variable---Dynamic Polymorphism --Run-time polymorphism
 		c1.start();
-		c.stop();
-		c.refuel();
+		c1.stop();
+		c1.refuel();
+		
+		
+		System.out.println("********************");
+		
+		
+		Vehicle v1 = new Vehicle();
+		v1.engine();
+		
+		
+		System.out.println("********************");
+		
+		Vehicle v2 = new BMW();
+		v2.engine();
+		
+		System.out.println("********down cast************");
+
+		
+		  BMW b5 = (BMW) new Vehicle(); 
+		  b5.engine();
+		 
+		
+		
+		
+		
+		
 		
 		
 		//Down Casting*****

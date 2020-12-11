@@ -16,11 +16,11 @@ package AbstractionConcept;
  * an abstract class can extend another Java class and implement multiple Java interfaces.
  * A Java class can implement multiple interfaces but it can extend only one abstract class.
  * Interface is absolutely abstract and cannot be instantiated; 
- * A Java abstract class also cannot be instantiated, but can be invoked if a main() exists.
+ * A Java abstract class also cannot be instantiated, but can be invoked if a main() method exists.
 In comparison with java abstract classes, java interfaces are slow as it requires extra indirection.
 */
 
-public abstract class Bank {
+public abstract class Bank extends BMW  {         //Main Difference Abstract class can extend only one Abstract class or COncrete class
 
 	private int a; // Abstract class can have private field
 
@@ -49,7 +49,7 @@ public abstract class Bank {
 	 * unauthorized methods.
 	 * 
 	 */
-	public abstract void loan(); // Abstract method--no method body
+	public abstract void loan();   // Abstract method--no method body
 
 	// Non abstract method
 	public void credit() {

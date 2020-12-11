@@ -9,9 +9,9 @@ public class GetNumberFromString {
 		   
 		   String numberOnly = str.replaceAll("[^0-9]", "");
 		   
-		   Integer.parseInt(numberOnly);
+		  int i =  Integer.parseInt(numberOnly);
 		 
-		   System.out.println(numberOnly);
+		   System.out.println(i);
 	}
 
 }

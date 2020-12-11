@@ -1,6 +1,6 @@
 package AbstractionConcept;
 
-public class BMW implements Car{
+public class BMW implements Car {
 
 	@Override
 	public void start() {

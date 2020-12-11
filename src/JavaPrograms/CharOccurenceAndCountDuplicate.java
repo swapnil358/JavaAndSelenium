@@ -39,7 +39,7 @@ public class CharOccurenceAndCountDuplicate {
 
 	public static void main(String[] args) {
 
-		CharDupCount("maharaja");
+		CharDupCount("maharajam");
 	}
 
 }

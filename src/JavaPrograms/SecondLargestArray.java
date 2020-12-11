@@ -11,8 +11,11 @@ public class SecondLargestArray {
 	 */
 	public static int getSecondLargestArray(int[] a1, int total) {
 
+	
+		
 		Arrays.sort(a1);
 		return a1[total - 2];
+		
 	}
 
 	/*
@@ -23,7 +26,8 @@ public class SecondLargestArray {
 
 		List<Integer> list = Arrays.asList(b1);
 
-		Collections.sort(list);
+		  Collections.sort(list);
+		
 
 		int element = list.get(total - 2);
 		return element;
@@ -32,6 +36,7 @@ public class SecondLargestArray {
 	public static void main(String[] args) {
 
 		int a1[] = { 1, 2, 5, 6, 3, 2 };
+		
 		getSecondLargestArray(a1, 6);
 		System.out.println("Second Largest:using Arrays sort: " + getSecondLargestArray(a1, 6));
 

@@ -9,9 +9,9 @@ public class LargestAndSmallestOfArray {
 			
 	public static void main(String[] args) {
 		
-		int[] a = new int[] { 1, 20, 15, 50, 90 };
+		int[] a = new int[] { 1, 20, 15, 98, 50, 90 };
 		
-		System.out.println(a.length);
+	//	System.out.println(a.length);
 						
 		int min = a[0];
 		
@@ -31,8 +31,8 @@ public class LargestAndSmallestOfArray {
 			
 		}
 
-		System.out.println("Min"+min);
-		System.out.println("max"+max);
+		System.out.println("Smallest Array is : "+min);
+		System.out.println("Largest Array is : "+max);
 		
 		
 		

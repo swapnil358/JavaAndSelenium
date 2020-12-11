@@ -21,12 +21,12 @@ public class StringAnagram {
 	
 	public static void main(String[] args) {
 
-		String str1 = "java";
-		String str2 = "avaj";
+
+		String str1 = "Selnium";
+		String str2 = "niumSel";
 		
 		
-		
-		System.out.println("Both strings are anagram to each other" +AnagramCheck(str1, str2));
+		System.out.println("Both strings are anagram to each other: " +AnagramCheck(str1, str2));
 
 	}
 

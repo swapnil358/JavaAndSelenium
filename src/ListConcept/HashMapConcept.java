@@ -6,6 +6,7 @@ import java.util.Map.Entry;
 public class HashMapConcept {
 
 	public static void main(String[] args) {
+		
 
 		
 		//HashMap is class which implements Map interface

@@ -9,16 +9,12 @@ public class TestCar {
 		b.stop();
 		b.refuel();
 		b.theftsafety();
-		
-		
-		Car c = new BMW();			//dynamic poly or Top casting
+
+		Car c = new BMW(); // dynamic poly or Top casting
 		c.start();
 		c.stop();
 		c.refuel();
-		
-		
-		
-		
+
 	}
 
 }

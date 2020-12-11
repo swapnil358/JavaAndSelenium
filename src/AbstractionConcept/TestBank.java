@@ -11,12 +11,19 @@ public class TestBank {
 		hb.loan();
 		hb.funds();
 		
+		
 	//Dynamic polymorphism
+		
+		System.out.println("Child class object reffered by parent class variable--i.e //Dynamic polymorphism");
 		
 		Bank b = new HDFCBank();			//Child class object reffered by parent class variable--i.e //Dynamic polymorphism
 		b.credit();
 		b.debit();
 		b.loan();
+		
+		
+		//HDFCBank hd = new Bank();   //Upcasting is not possible
+		
 		
 		
 		/*

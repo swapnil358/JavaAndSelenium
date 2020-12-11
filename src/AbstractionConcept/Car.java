@@ -1,15 +1,22 @@
 package AbstractionConcept;
 
-public interface Car {
+public interface Car extends Car2,Car3  {     //Main difference - Interface can extend multiple interface
 
 	// Only Final and static variable define in abstract
 
 	int i = 10; // By default, interface fields are public, static and final
-
-	void abstractMethod(); // Interface can have abstract method
+	
 
 	int wheels = 4;
 
+	public abstract void abstractMethod(); // Interface can have abstract method
+
+	public void start();
+	
+	public void stop();
+
+	public void refuel();
+	
 	// We always define Abstract method without Abstract keyword
 	// Abstract method -- only method declaration,
 	// No method body
@@ -49,10 +56,5 @@ public interface Car {
 	 * 
 	 */
 
-	public void start();
-
-	public void stop();
-
-	public void refuel();
 
 }

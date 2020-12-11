@@ -36,7 +36,6 @@ public class FinallyConcept {
 		} finally {
 			System.out.println("finally code in test2 method");
 		}
-
 	}
 
 	// Example3

@@ -7,7 +7,7 @@ public class ArrayListConcept {
 
 	public static void main(String[] args) {
 
-		int[] a = new int[3];
+		int[] a = new int[3];    
 
 		a[0] = 10;
 		a[1] = 20;
@@ -17,7 +17,7 @@ public class ArrayListConcept {
 
 		System.out.println("************   String Array   **************************************************");
 
-		ArrayList<String> arrStr = new ArrayList<String>();
+		ArrayList<String> arrStr = new ArrayList<String>(); 
 
 		arrStr.add("swapnil");
 		arrStr.add("triveni");

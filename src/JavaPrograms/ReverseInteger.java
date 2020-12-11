@@ -15,18 +15,38 @@ public class ReverseInteger {
 			num = num / 10;
 		}
 
-		System.out.println(rev);
+		System.out.println("Using first method: "+rev);
 		
 		
 		//Using String buffer
 		
 		long num1 = 145632;
 		
-		StringBuffer sb = new StringBuffer(String.valueOf(num1));
-		System.out.println("String buffer: "+sb.reverse());
+		String num2 = String.valueOf(num1);
+		
+		StringBuffer sb = new StringBuffer(String.valueOf(num2));
+		System.out.println("Reverse of 145632 using String buffer: "+sb.reverse());
 		
 		
 		 //System.out.println(new StringBuffer(String.valueOf(num1)).reverse());
+	
+		myLogin(12345);
+		
+	
+	}
+	
+	public static void myLogin(int num1) {
+		
+		int r;
+		int sum =0;
+		
+		while(num1 != 0) {
+			r= num1%10;
+			sum = (sum *10)+r;
+			num1 = num1 /10;
+			
+			}
+		System.out.println("sum is: "+sum);
 		
 	}
 

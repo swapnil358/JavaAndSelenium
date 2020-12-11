@@ -114,7 +114,7 @@ public class StaticArray {
  //Object Array --------> It used to store different data types values
         
         
-        Object ob[] = new Object[3];
+        Object ob[] = new Object[10];
         
         ob[0]= "Tom";
         ob[1]= 20;

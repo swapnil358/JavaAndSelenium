@@ -5,10 +5,10 @@ public class TwoDimArray {
 	public static void main(String[] args) {
 		
 		
-		String x[] [] = new String [3] [5];
+		String x[][] = new String [3] [5];
 		
-		System.out.println(x.length); 			//	---------->//Total number of Row
-		System.out.println(x[0].length);			//---------->//Total number of Column
+		System.out.println("Total number of Row: "+x.length); 			//	---------->//Total number of Row
+		System.out.println("Total number of Column: "+ x[0].length);			//---------->//Total number of Column
 		
 		
 		//1st Row
@@ -36,7 +36,7 @@ public class TwoDimArray {
 		x[2][4] = "E2";
 					
 		
-		System.out.println(x[1][4]);
+		System.out.println("1st row and 2nd column "+ x[1][4]);
 		System.out.println(x[2][3]);
 		
 		
