@@ -24,7 +24,7 @@ public class ReverseInteger {
 		
 		String num2 = String.valueOf(num1);
 		
-		StringBuffer sb = new StringBuffer(String.valueOf(num2));
+		StringBuffer sb = new StringBuffer(num2);
 		System.out.println("Reverse of 145632 using String buffer: "+sb.reverse());
 		
 		

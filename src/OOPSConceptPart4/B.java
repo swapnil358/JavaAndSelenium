@@ -13,7 +13,7 @@ public class B extends A {
 	}
 
 	public B(int i, int j) {
-		super(i, j);
+		super(10,20);
 	}
 
 	public static void main(String[] args) {

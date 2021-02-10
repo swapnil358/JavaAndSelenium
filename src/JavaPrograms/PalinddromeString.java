@@ -20,7 +20,7 @@ public class PalinddromeString {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(isPalindrome("aaccbmcaa"));
+		System.out.println(isPalindrome("abcd"));
 		
 	}
 

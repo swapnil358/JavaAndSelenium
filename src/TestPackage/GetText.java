@@ -6,7 +6,7 @@ public class GetText {
 
 		String n = "2019/nacurrent";
 
-		String abc = n.replaceAll("[/a-z]", " ");
+		String abc = n.replaceAll("[^a-z]", "");
 
 		System.out.println(abc);
 

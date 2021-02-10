@@ -59,7 +59,7 @@ public class HashTableConcept2 {
 		System.out.println("-----Print values using 'entrySet()' from ht---");
 		
 		Set s = ht.entrySet();
-		System.out.println(s);
+		System.out.println("Get all the values from hashtable using ---entrySet()"+s);
 		
 		
 

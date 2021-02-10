@@ -6,6 +6,7 @@ public interface Car extends Car2,Car3  {     //Main difference - Interface can 
 
 	int i = 10; // By default, interface fields are public, static and final
 	
+	public static final int j=20;//
 
 	int wheels = 4;
 

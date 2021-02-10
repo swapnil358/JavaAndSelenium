@@ -17,10 +17,10 @@ public class InterviewPgm {
 	}
 
 	public static void method2() {
-		String name = "I love chennai";
+		String name = "I am from chennai";
 		String[] str = name.split(" ");
 
-		System.out.println(str[2]);
+		System.out.println(str[3]);
 
 	}
 

@@ -6,7 +6,7 @@ public class FunctionsInJava {
 
 		FunctionsInJava obj = new FunctionsInJava();
 
-		obj.test();
+		
 
 		int l = obj.pqr();
 		System.out.println(l);

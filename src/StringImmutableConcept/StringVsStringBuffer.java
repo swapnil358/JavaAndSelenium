@@ -6,6 +6,8 @@ public class StringVsStringBuffer {
 
 		String s = new String("durga"); // Since String in immutable, it is not going to Concat
 		s.concat("software");
+		
+		System.out.println("the value of s become:" +s);
 
 		
 		
@@ -31,12 +33,12 @@ public class StringVsStringBuffer {
 
 		StringBuffer sb1 = new StringBuffer("durga");
 
-		System.out.println("Using StringBuffer: sb1 " + sb.append("software"));
+		//System.out.println("Using StringBuffer: sb1 " + sb.append("software"));
 
-		System.out.println(sb == sb1);
+		System.out.println(sb == sb1); //pointing to different objects
 		
 
-		System.out.println(sb.equals(sb1));
+		System.out.println(sb.equals(sb1));  //false --here in StringBuffer--> euqals() method act similar '==' reference comparison
 		
 	}
 

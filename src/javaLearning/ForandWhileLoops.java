@@ -6,13 +6,11 @@ public class ForandWhileLoops {
 
 //Print Value 1 to 10 using For loop
 
-		/*
-		 * for(int j=1; j<=10; j++) {
-		 * 
-		 * System.out.println(j);
-		 * 
-		 * }
-		 */
+		for (int j = 1; j <= 10; j++) {
+
+			System.out.println(j);
+
+		}
 
 //Print Value 10 to 1 using For loop
 

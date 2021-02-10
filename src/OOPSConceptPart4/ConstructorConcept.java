@@ -3,7 +3,7 @@ package OOPSConceptPart4;
 //refer - https://youtu.be/XtrSoiFfTEQ?list=PLFGoYjJG_fqqyIj2ht0aHMx_HnGX3ZFEx\
 
 /*Constructors:
-1.Constructor is a java feature, it can be used to create Object.
+1.Constructor is a java feature, it can be used to to perform initialization of object .
 2.The role of the constructors in Object creation is to provide initial values inside the object.
 3.In java applications, Constructors are executed exactly at the time of creating objects, not before
 creating objects and not after creating objects.

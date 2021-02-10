@@ -15,7 +15,9 @@ public class Demo3 {
 		
 		Collections.sort(list);
 		
-		System.out.println(Arrays.toString(array));
+	
+		
+	System.out.println(Arrays.toString(array));
 
 	}
 

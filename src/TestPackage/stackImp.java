@@ -1,7 +1,5 @@
 package TestPackage;
 
-import sun.applet.Main;
-
 public class stackImp {
 
 	int size;

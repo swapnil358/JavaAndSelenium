@@ -22,6 +22,7 @@ public class TestBank {
 		b.loan();
 		
 		
+		
 		//HDFCBank hd = new Bank();   //Upcasting is not possible
 		
 		
@@ -30,6 +31,7 @@ public class TestBank {
 		 * 
 		 * Bank b1 = new Bank();          *Can not create the object of Abstract class
 		 */
+		
 	}
 
 }
