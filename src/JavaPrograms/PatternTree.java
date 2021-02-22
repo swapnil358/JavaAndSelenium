@@ -24,7 +24,7 @@ public class PatternTree {
     } 
        public static void main(String args[]) 
     { 
-        int n = 30; 
+        int n = 10; 
         printNums(n); 
     } 
 

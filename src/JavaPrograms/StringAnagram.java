@@ -23,7 +23,7 @@ public class StringAnagram {
 
 
 		String str1 = "Selnium";
-		String str2 = "niumSel";
+		String str2 = "inumSel";
 		
 		
 		System.out.println("Both strings are anagram to each other: " +AnagramCheck(str1, str2));

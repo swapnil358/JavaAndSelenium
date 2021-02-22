@@ -17,6 +17,14 @@ instance variable.
 constructor to the caller .
 
 */
+//What is difference between method overloading and constructor overloading with example?
+
+//--->If we want to have different ways of initializing an object using different number of parameters,
+//then we must do constructor overloading and we do method overloading when we want different definitions of a method
+//based on different parameters.
+
+//This is constructor overloading
+
 public class ConstructorConcept {
 
 	public ConstructorConcept() {
