@@ -26,4 +26,7 @@ public class InterfaceTest implements Car,Car2,Car3 {
 		
 	}
 
+	
+	
+
 }

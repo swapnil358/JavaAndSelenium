@@ -2,6 +2,7 @@ package ListConcept;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.Set;
 
 public class HashTableConcept2 {
@@ -52,6 +53,10 @@ public class HashTableConcept2 {
 		while(e.hasMoreElements()) {
 			System.out.println(e.nextElement());
 		}
+		
+		
+		
+		
 		
 		
 		//Get all the values from hashtable using ---entrySet()----set of hashtable values:

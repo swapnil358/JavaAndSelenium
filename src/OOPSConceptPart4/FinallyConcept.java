@@ -72,4 +72,18 @@ public class FinallyConcept {
 		}
 	}
 
+	// There are two catch blocks in first catch block have exception e and second
+	// catch block have arithmetic expection and will expect arithmetic exception
+	// in try block then which catch block will get execute first?"
+
+	public static void question() {
+
+		/*
+		 * int i = 10; try { System.out.println("inside try block"); int k = i / 0; }
+		 * catch (Exception e) { System.out.println("inside catch block");
+		 * System.out.println("devide by zero error"); } catch (ArithmeticException ) {
+		 * System.out.println("inside catch block"); }
+		 */
+
+	}
 }

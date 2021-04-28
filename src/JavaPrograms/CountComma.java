@@ -12,7 +12,7 @@ public class CountComma {
 
 			char c = s.charAt(i);
 
-			if (c == ',') {
+			if (c == 'a') {
 				count++;
 			}
 

@@ -12,7 +12,7 @@ public class BinarySearch {
 
 	public static void BiSearch() {
 
-		int[] a = { 1, 4, 8, 9, 12, 22, 34, 54, 67, 78, 89 };
+		int[] a = { 1, 4, 8, 9, 12, 22, 34, 54, 78, 89 };
 
 		int li = 0;
 		

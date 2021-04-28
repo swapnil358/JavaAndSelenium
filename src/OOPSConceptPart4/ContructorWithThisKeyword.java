@@ -3,6 +3,12 @@ package OOPSConceptPart4;
 
 //refer - https://youtu.be/XtrSoiFfTEQ?list=PLFGoYjJG_fqqyIj2ht0aHMx_HnGX3ZFEx
 
+//Durga- https://youtu.be/Jll2gxAdfxI
+
+//Smart programming - https://youtu.be/Imy9TEJkKa8
+
+//Constructor is used to initialize the object
+
 public class ContructorWithThisKeyword {
 
 	String name;

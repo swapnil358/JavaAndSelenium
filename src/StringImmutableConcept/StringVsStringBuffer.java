@@ -29,11 +29,11 @@ public class StringVsStringBuffer {
 
 		StringBuffer sb = new StringBuffer("durga"); // Since it is mutable, it is going to append 'software'
 		sb.append("software");
-		System.out.println("StringBuffer concat:sb "+sb.append("software"));
+		System.out.println("StringBuffer concat:sb : "+sb);
 
-		StringBuffer sb1 = new StringBuffer("durga");
+		StringBuffer sb1 = new StringBuffer("durgasoftware");
 
-		//System.out.println("Using StringBuffer: sb1 " + sb.append("software"));
+		System.out.println("Using StringBuffer sb1 : " + sb1);
 
 		System.out.println(sb == sb1); //pointing to different objects
 		

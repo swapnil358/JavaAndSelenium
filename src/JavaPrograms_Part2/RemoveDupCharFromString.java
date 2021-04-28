@@ -12,6 +12,7 @@ public class RemoveDupCharFromString {
 		Set set = new HashSet<>();
 
 		StringBuffer dupChar = new StringBuffer();
+		
 
 		for (int i = 0; i < str.length(); i++) {
 			char fstr = str.charAt(i);
